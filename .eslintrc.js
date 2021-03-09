@@ -1,6 +1,7 @@
+module.exports=
 {
     "env": {
-        "browser": false,
+        "browser": true,
         "commonjs": true,
         "es2021": true,
         "node": true
@@ -14,7 +15,10 @@
             "error",
             "tab"
         ],
-        "linebreak-style": ["error","windows"],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
         "quotes": [
             "error",
             "double"
