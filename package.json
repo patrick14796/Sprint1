@@ -4,7 +4,9 @@
   "description": "sprint1 in Software Project Management Course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js",
+    "test": "mocha tests/*.spec.js --color",
+    "lint": "eslint src/*.js --color"
   },
   "repository": {
     "type": "git",
@@ -17,11 +19,15 @@
   },
   "homepage": "https://github.com/patrick14796/Sprint1#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongodb": "^3.6.4"
+    "nodemon": "^2.0.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.3",
+    "eslint": "^7.21.0",
+    "mocha": "^8.3.1"
   }
 }
