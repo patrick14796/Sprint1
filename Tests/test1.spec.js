@@ -15,7 +15,7 @@ describe('Array', () => {
     describe('#fillter', () => {
         it('should filter value', () => {
             var arr = [1, 2, 3, 4, 5, 6]
-            expect(arr.filter(value => value % 2 == 0)).to.be.eql([2, 4, 6,7])
+            expect(arr.filter(value => value % 2 == 0)).to.be.eql([2, 4, 6])
         })
     })
 })
