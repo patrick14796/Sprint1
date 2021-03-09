@@ -8,10 +8,12 @@ describe('Array', () => {
         })
 
         it('sorting number array', () => {
-            expect([5, 2, 1, 6].sort()).to.be.eql([1, 2, 5, 6])
+            expect([5, 2, 1, 6].sort()).to.be.eql([1, 2, 5, 6] )
         })
     })
 
+    console.log("Test-Test!!!")
+    
     describe('#fillter', () => {
         it('should filter value', () => {
             var arr = [1, 2, 3, 4, 5, 6]
