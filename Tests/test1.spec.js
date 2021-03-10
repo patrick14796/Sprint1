@@ -12,8 +12,6 @@ describe('Array', () => {
         })
     })
 
-    console.log("Test-Test!!!")
-    
     describe('#fillter', () => {
         it('should filter value', () => {
             var arr = [1, 2, 3, 4, 5, 6]
