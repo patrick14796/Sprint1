@@ -1,21 +1,60 @@
 var expect = require('chai').expect
 
-describe('Array', () => {
-    describe('#sort', () => {
-        it('should sorting array by name', () => {
-            var names = ['Daniel', 'Bob', 'vicrtor', 'Alice']
-            expect(names.sort()).to.be.eql(['Alice', 'Bob', 'Daniel', 'vicrtor'])
+describe('Login', () => {
+    describe('#Email Address', () => {
+        it('should return true if get valid email address format', () => {
+            var validEmailAddress = 'check@gov.il'
+            expect(validateEmail(validEmailAddress)).to.be.eql(true)
         })
 
-        it('sorting number array', () => {
-            expect([5, 2, 1, 6].sort()).to.be.eql([1, 2, 5, 6] )
+		it('should return false if get invalid email address ending format', () => {
+            var invalidEmailAddress = 'check@mail'
+            expect(validateEmail(invalidEmailAddress)).to.be.eql(false)
+        })
+
+		it('should return false if get email address without @', () => {
+            var invalidEmailAddress = 'checkmail.il'
+            expect(validateEmail(invalidEmailAddress)).to.be.eql(false)
+        })
+
+		it('should return false if get empty email address ending', () => {
+            var invalidEmailAddress = 'check@'
+            expect(validateEmail(invalidEmailAddress)).to.be.eql(false)
+        })
+
+		it('should return false if get empty email address', () => {
+            var emptyEmailAddress = ''
+            expect(validateEmail(emptyEmailAddress)).to.be.eql(false)
         })
     })
 
-    describe('#fillter', () => {
-        it('should filter value', () => {
-            var arr = [1, 2, 3, 4, 5, 6]
-            expect(arr.filter(value => value % 2 == 0)).to.be.eql([2, 4, 6] )
+    describe('#Password', () => {
+        it('should return true if get valid password', () => {
+            var validPassword = 'a12'
+            expect(validatePassword(validPassword)).to.be.eql(true)
+        })
+
+		it('should return false if get invalid password', () => {
+            var invalidPassword = ''
+            expect(validatePassword(invalidPassword)).to.be.eql(false)
         })
     })
 })
+
+function validateEmail (input) {
+	const validEmailFormat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+	if(input.trim().match(validEmailFormat) == null){
+			return false;
+	}
+	else if (input.trim() == ''){
+			return false;
+	}
+	return true;
+}
+
+function validatePassword (input) {
+	if (input.trim() == ''){
+			return false;
+	}
+	return true;
+}

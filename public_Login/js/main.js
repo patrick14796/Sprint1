@@ -43,7 +43,8 @@
 
     function validate (input) {
         if($(input).attr('type') == 'email' || $(input).attr('name') == 'Email Address') {
-            if($(input).val().trim().match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/) == null){
+			const validEmailFormat = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            if($(input).val().trim().match(validEmailFormat) == null){
                 return false;
             }
         }
