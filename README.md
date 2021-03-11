@@ -19,22 +19,22 @@ We create some basic Features :
 
 
 ## Technologies
-### In This Project we Use This Following Languages:
+#### In This Project we Use This Following Languages:
 
-# JS
-# CSS
-# json 
-# Node v14.16.0
+1. JS
+2. CSS
+3. json 
+4. Node v14.16.0
 
-### Packages:
+#### Packages:
 
-# npm ^6.14.11
-# eslint ^7.21.0
-# ejs ^3.1.6
-# nodemon ^2.0.7
-# mocha ^8.3.1
-# chai ^4.3.3
-# express ^4.17.1
+1. npm ^6.14.11
+2. eslint ^7.21.0
+3. ejs ^3.1.6
+4. nodemon ^2.0.7
+5. mocha ^8.3.1
+6. chai ^4.3.3
+7. express ^4.17.1
 
 
 ## Setup
