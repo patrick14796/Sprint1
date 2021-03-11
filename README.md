@@ -55,7 +55,8 @@ For Run this project:
 - $ cd ../User
 - Type: $ npm run dev
 - Open Browser 
-- type http://127.0.0.1:3000 (this project run on Port 3000/ in Case your 3000 Port is Catch * [Click-Here](#busy-port))
+- type http://127.0.0.1:3000 (this project run on Port 3000)
+- in Case your 3000 Port is Catch [Click-Here](#busy-port))
 - Enjoy The Web-Site
 ```
 
@@ -69,15 +70,15 @@ In Case your 3000 Port is in Use Please Follow this instructions:
 3. Open your Command Prompt(cmd) / Windows PowerShell & type netstat -b 
 4. Choose number of Port Which does not appear in the list
 5. Type this port number in the File index.js at line 2 instead of port 3000
-6. run Again * [Launch instructions](#launch)
+6. run Again [Launch instructions](#launch)
 
 
 
 # Team_Members
-[Patrick Lugassy](https://github.com/patrick14796 "Rona Nazarov Profile")
-[Amit Ovadia](https://github.com/AmitOvadia "Rona Nazarov Profile")
-[Ivan Borisenco](https://github.com/Colvan "Rona Nazarov Profile")
-[Rona Nazarov](https://github.com/RonaNazarov "Rona Nazarov Profile")
+1. [Patrick Lugassy](https://github.com/patrick14796 "Rona Nazarov Profile")
+2. [Amit Ovadia](https://github.com/AmitOvadia "Rona Nazarov Profile")
+3. [Ivan Borisenco](https://github.com/Colvan "Rona Nazarov Profile")
+4. [Rona Nazarov](https://github.com/RonaNazarov "Rona Nazarov Profile")
 
 
 
