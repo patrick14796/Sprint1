@@ -6,7 +6,7 @@
 * [Team_members](#Team_Members)
 
 # General info
-sprint1 in Software Project Management Course
+sprint1 in Software Project Management Course.
 
 In this Sprint we have developed a skeleton To our Future site.
 
@@ -43,7 +43,7 @@ To install this project, Please Follow This Node's Package's Manager installatio
 ```
 - Open Terminal
 - $ cd ../User
-- Type: $ npm install (Wait all the package installation Finsh)
+- Type: $ npm install (Wait all the package installation Finish)
 - Type: $ npm start
 ```
 
