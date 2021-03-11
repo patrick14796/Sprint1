@@ -40,8 +40,13 @@ We create some basic Features :
 ## Setup
 To install this project, Please Follow This Node's Package's Manager installation:
 
+open Folder for this Project and Clone this Repository use follow command(clone with SSH):
 ```
-- Open Terminal
+git clone git@github.com:patrick14796/Sprint1.git
+```
+after clone the project Open Terminal and Navigate to project folder and run this following commands:
+
+```
 - $ cd ../User
 - Type: $ npm install (Wait all the package installation Finish)
 - Type: $ npm start
@@ -72,6 +77,7 @@ In Case your 3000 Port is in Use Please Follow this instructions:
 5. Type this port number in the File index.js at line 2 instead of port 3000
 ```
 run Again [Launch instructions](#launch)
+
 
 
 ## Team_Members
