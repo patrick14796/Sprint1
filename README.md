@@ -52,7 +52,6 @@ after clone the project Open Terminal and Navigate to project folder and run thi
 ```
 - $ cd ../User
 - Type: $ npm install (Wait all the package installation Finish)
-- Type: $ npm start
 ```
 
 
