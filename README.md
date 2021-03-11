@@ -36,6 +36,9 @@ We create some basic Features :
 * chai ^4.3.3
 * express ^4.17.1
 
+#### CI/CD
+* circle ci/cd
+
 
 ## Setup
 To install this project, Please Follow This Node's Package's Manager installation:
