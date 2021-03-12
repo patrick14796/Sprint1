@@ -7,6 +7,7 @@ app.use(express.static("public"))
 
 app.get("/", (req, res)=>{
 	res.render("Homepage")
+	res.status(200)
 })
 
 app.get("/Login", (req, res)=>{
@@ -20,3 +21,4 @@ app.get("/Register", (req, res)=>{
 app.listen(port, ()=>{
 	console.log("Listening to port 3000")
 })
+
